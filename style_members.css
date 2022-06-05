@@ -1,0 +1,52 @@
+
+:root{
+    /*Palette*/
+    --dark-gray: #171717;
+    --light-gray: #444444;
+    --red: #DA0037;
+    --text: #EDEDED;
+}
+
+#members-content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+
+    position: relative;
+
+    font-size: 20px;
+    text-align: left;
+
+    margin: none;
+}
+
+#members-header{
+    position: relative;
+    left: 7.5%;
+
+    font-size: 50px;
+}
+
+.member-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.member-section-text{
+    position: relative;
+    left: 7.5%;
+
+    width: 35%;
+}
+
+.member{
+    color: var(--red);
+}
+.member-img{
+    position: relative;
+    right: 15%;
+
+    width: 25%;
+}
+
